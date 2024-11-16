@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav>
+        <img src=" " alt="Logo" class="logo">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#album">Album</a></li>
+            <li><a href="form.html">Admissions</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+     <!-- Admissions Section -->
+     <section id="admissions" class="admissions">
+        <h2>Enroll Now</h2>
+        <form class="enrollment-form">
+            <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="grade-level">Grade Level:</label>
+            <select id="grade-level" name="grade-level" required>
+                <option value="kindergarten">Kindergarten</option>
+                <option value="primary">Primary</option>
+                <option value="secondary">Secondary</option>
+            </select>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>

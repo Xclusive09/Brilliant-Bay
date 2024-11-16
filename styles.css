@@ -1,0 +1,215 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0056b3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.hero-img {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* About Section */
+.about {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Album Section */
+.album {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+
+.album h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photo-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Admissions Section */
+.admissions {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.admissions h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.admissions p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.apply-btn {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.sitemap {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sitemap li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.sitemap li a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* Admissions Form Styles */
+.admissions {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.admissions h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.enrollment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enrollment-form label,
+.enrollment-form input,
+.enrollment-form select,
+.enrollment-form textarea,
+.enrollment-form button {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.enrollment-form button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.enrollment-form button:hover {
+    background-color: #004494;
+}
